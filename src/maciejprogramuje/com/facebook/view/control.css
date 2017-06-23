@@ -1,0 +1,24 @@
+#clockwise-button {
+	-fx-background-image: url('../resources/clockwiseButton.png');
+}
+#clockwise-button:hover {
+	-fx-background-image: url('../resources/clockwiseButtonHover.png');	
+}
+
+#counter-clockwise-button {
+	-fx-background-image: url('../resources/counterClockwiseButton.png');
+}
+#counter-clockwise-button:hover {
+	-fx-background-image: url('../resources/counterClockwiseButtonHover.png');
+}
+
+.button {
+  	-fx-background-repeat: no-repeat;
+  	-fx-background-position: center;
+	-fx-background-color: transparent;
+  	-fx-opacity: 80%;
+}
+
+.button:pressed {
+	-fx-opacity: 100%;
+}
